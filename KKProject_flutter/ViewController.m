@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <Flutter/Flutter.h>
 
 @interface ViewController ()
 
