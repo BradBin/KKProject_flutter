@@ -1,0 +1,6 @@
+framework module Pods_KKProject_flutter {
+  umbrella header "Pods-KKProject_flutter-umbrella.h"
+
+  export *
+  module * { export * }
+}

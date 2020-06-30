@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-KKProject_flutter/Pods-KKProject_flutter-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${PODS_ROOT}/../flutter_lib/.ios/Flutter/engine/Flutter.framework
+${PODS_ROOT}/../flutter_lib/.ios/Flutter/App.framework
