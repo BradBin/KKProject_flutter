@@ -1,4 +1,14 @@
 ${PODS_ROOT}/Target Support Files/Pods-KKProject_flutter-KKProject_flutterUITests/Pods-KKProject_flutter-KKProject_flutterUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework
+${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework
 ${PODS_ROOT}/../flutter_lib/.ios/Flutter/engine/Flutter.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/JXCategoryView/JXCategoryView.framework
+${BUILT_PRODUCTS_DIR}/JXPagingView/JXPagingView.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/TYCyclePagerView/TYCyclePagerView.framework
+${BUILT_PRODUCTS_DIR}/dsBridge/dsBridge.framework
 ${PODS_ROOT}/../flutter_lib/.ios/Flutter/App.framework

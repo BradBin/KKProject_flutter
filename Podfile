@@ -18,10 +18,21 @@ target 'KKProject_flutter' do
   use_frameworks!
   ### 5 安装flutter
   install_all_flutter_pods(flutter_application_path)
+  pod 'AFNetworking', '~> 4.0.1'
+  pod 'CYLTabBarController', '~> 1.29.0'
+  pod 'TYCyclePagerView', '~> 1.2.0'
   
+  pod 'Masonry'
+  pod 'dsBridge'
+  pod 'IQKeyboardManager'
+  pod 'ReactiveObjC'
+  pod 'MJRefresh'
+  #首页标签框架
+  pod 'JXPagingView/Pager'
+  pod 'JXCategoryView'
   
-    pod 'AFNetworking', '~> 4.0.1'
-  
+  #循环引用检测工具
+  pod 'FBRetainCycleDetector'
   
   
   target 'KKProject_flutterTests' do

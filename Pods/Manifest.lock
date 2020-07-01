@@ -14,21 +14,53 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - CYLTabBarController (1.29.0):
+    - CYLTabBarController/Core (= 1.29.0)
+  - CYLTabBarController/Core (1.29.0)
+  - dsBridge (3.0.6)
+  - FBRetainCycleDetector (0.1.4)
   - Flutter (1.0.0)
   - flutter_lib (0.0.1):
     - Flutter
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
+  - IQKeyboardManager (6.5.5)
+  - JXCategoryView (1.5.5)
+  - JXPagingView/Pager (2.0.6)
+  - Masonry (1.1.0)
+  - MJRefresh (3.4.3)
+  - ReactiveObjC (3.1.1)
+  - TYCyclePagerView (1.2.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0.1)
+  - CYLTabBarController (~> 1.29.0)
+  - dsBridge
+  - FBRetainCycleDetector
   - Flutter (from `flutter_lib/.ios/Flutter/engine`)
   - flutter_lib (from `flutter_lib/.ios/Flutter`)
   - FlutterPluginRegistrant (from `flutter_lib/.ios/Flutter/FlutterPluginRegistrant`)
+  - IQKeyboardManager
+  - JXCategoryView
+  - JXPagingView/Pager
+  - Masonry
+  - MJRefresh
+  - ReactiveObjC
+  - TYCyclePagerView (~> 1.2.0)
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - CYLTabBarController
+    - dsBridge
+    - FBRetainCycleDetector
+    - IQKeyboardManager
+    - JXCategoryView
+    - JXPagingView
+    - Masonry
+    - MJRefresh
+    - ReactiveObjC
+    - TYCyclePagerView
 
 EXTERNAL SOURCES:
   Flutter:
@@ -40,10 +72,20 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
+  dsBridge: 48b62ee8a411ad601a88d6f6c8cf6cb634b206b7
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_lib: 7ea9c35f2d36c836459850d54166bba16b22e2db
   FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  JXCategoryView: 0293fcb356f10a5c2e679dac0a1a5f1899ee0c87
+  JXPagingView: 5851fb8cc964d0cbd93e9611077f7bc1fca05fee
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
 
-PODFILE CHECKSUM: a32daf9851fcaae64c46991681a56ed40ed18cb6
+PODFILE CHECKSUM: 70f1e2711f868d0db4f1309755fc37e30f9d160d
 
 COCOAPODS: 1.9.1

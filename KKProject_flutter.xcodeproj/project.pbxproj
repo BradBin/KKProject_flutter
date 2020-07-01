@@ -10,6 +10,9 @@
 		0A0B44B22338E7176A92DAEF /* Pods_KKProject_flutter_KKProject_flutterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828FE3D000ACFFB4D7296FA0 /* Pods_KKProject_flutter_KKProject_flutterUITests.framework */; };
 		3C64ED9D0070C9A4CA6E642E /* Pods_KKProject_flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6D745C260D7D03BEE66299 /* Pods_KKProject_flutter.framework */; };
 		5D1A236396601C36203453BC /* Pods_KKProject_flutterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7E856D61AD3004AE674E14 /* Pods_KKProject_flutterTests.framework */; };
+		9310291024AC206400080CE7 /* KKProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9310290F24AC206400080CE7 /* KKProfileViewController.m */; };
+		9310291324AC207C00080CE7 /* KKTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9310291224AC207C00080CE7 /* KKTrendsViewController.m */; };
+		9310291624AC20A700080CE7 /* KKMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9310291524AC20A700080CE7 /* KKMessageViewController.m */; };
 		9383728124AB4AA000D3D25E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9383728024AB4AA000D3D25E /* AppDelegate.m */; };
 		9383728424AB4AA000D3D25E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9383728324AB4AA000D3D25E /* SceneDelegate.m */; };
 		9383728724AB4AA000D3D25E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9383728624AB4AA000D3D25E /* ViewController.m */; };
@@ -45,6 +48,12 @@
 		4CFCF0E22C055F9D0F28D074 /* Pods-KKProject_flutterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKProject_flutterTests.debug.xcconfig"; path = "Target Support Files/Pods-KKProject_flutterTests/Pods-KKProject_flutterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		54D09CE9303B8F88B35461D8 /* Pods-KKProject_flutter-KKProject_flutterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKProject_flutter-KKProject_flutterUITests.release.xcconfig"; path = "Target Support Files/Pods-KKProject_flutter-KKProject_flutterUITests/Pods-KKProject_flutter-KKProject_flutterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		828FE3D000ACFFB4D7296FA0 /* Pods_KKProject_flutter_KKProject_flutterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKProject_flutter_KKProject_flutterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9310290E24AC206400080CE7 /* KKProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKProfileViewController.h; sourceTree = "<group>"; };
+		9310290F24AC206400080CE7 /* KKProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKProfileViewController.m; sourceTree = "<group>"; };
+		9310291124AC207C00080CE7 /* KKTrendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKTrendsViewController.h; sourceTree = "<group>"; };
+		9310291224AC207C00080CE7 /* KKTrendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKTrendsViewController.m; sourceTree = "<group>"; };
+		9310291424AC20A700080CE7 /* KKMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKMessageViewController.h; sourceTree = "<group>"; };
+		9310291524AC20A700080CE7 /* KKMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKMessageViewController.m; sourceTree = "<group>"; };
 		9383727C24AB4AA000D3D25E /* KKProject_flutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKProject_flutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9383727F24AB4AA000D3D25E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9383728024AB4AA000D3D25E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +121,46 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9310290B24AC1F2D00080CE7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9383727F24AB4AA000D3D25E /* AppDelegate.h */,
+				9383728024AB4AA000D3D25E /* AppDelegate.m */,
+				9383728224AB4AA000D3D25E /* SceneDelegate.h */,
+				9383728324AB4AA000D3D25E /* SceneDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9310290C24AC1F4400080CE7 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				9383728524AB4AA000D3D25E /* ViewController.h */,
+				9383728624AB4AA000D3D25E /* ViewController.m */,
+				9383728824AB4AA000D3D25E /* Main.storyboard */,
+				9383728B24AB4AA100D3D25E /* Assets.xcassets */,
+				9383728D24AB4AA100D3D25E /* LaunchScreen.storyboard */,
+				9383729024AB4AA100D3D25E /* Info.plist */,
+				9383729124AB4AA100D3D25E /* main.m */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		9310290D24AC201200080CE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				938372B824AB657200D3D25E /* KKHomeViewController.h */,
+				938372B924AB657200D3D25E /* KKHomeViewController.m */,
+				9310290E24AC206400080CE7 /* KKProfileViewController.h */,
+				9310290F24AC206400080CE7 /* KKProfileViewController.m */,
+				9310291124AC207C00080CE7 /* KKTrendsViewController.h */,
+				9310291224AC207C00080CE7 /* KKTrendsViewController.m */,
+				9310291424AC20A700080CE7 /* KKMessageViewController.h */,
+				9310291524AC20A700080CE7 /* KKMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9383727324AB4AA000D3D25E = {
 			isa = PBXGroup;
 			children = (
@@ -137,19 +186,9 @@
 		9383727E24AB4AA000D3D25E /* KKProject_flutter */ = {
 			isa = PBXGroup;
 			children = (
-				9383727F24AB4AA000D3D25E /* AppDelegate.h */,
-				9383728024AB4AA000D3D25E /* AppDelegate.m */,
-				9383728224AB4AA000D3D25E /* SceneDelegate.h */,
-				9383728324AB4AA000D3D25E /* SceneDelegate.m */,
-				9383728524AB4AA000D3D25E /* ViewController.h */,
-				9383728624AB4AA000D3D25E /* ViewController.m */,
-				9383728824AB4AA000D3D25E /* Main.storyboard */,
-				9383728B24AB4AA100D3D25E /* Assets.xcassets */,
-				9383728D24AB4AA100D3D25E /* LaunchScreen.storyboard */,
-				9383729024AB4AA100D3D25E /* Info.plist */,
-				9383729124AB4AA100D3D25E /* main.m */,
-				938372B824AB657200D3D25E /* KKHomeViewController.h */,
-				938372B924AB657200D3D25E /* KKHomeViewController.m */,
+				9310290B24AC1F2D00080CE7 /* App */,
+				9310290C24AC1F4400080CE7 /* Support files */,
+				9310290D24AC201200080CE7 /* Controller */,
 			);
 			path = KKProject_flutter;
 			sourceTree = "<group>";
@@ -460,6 +499,9 @@
 				938372BA24AB657200D3D25E /* KKHomeViewController.m in Sources */,
 				9383728124AB4AA000D3D25E /* AppDelegate.m in Sources */,
 				9383729224AB4AA100D3D25E /* main.m in Sources */,
+				9310291324AC207C00080CE7 /* KKTrendsViewController.m in Sources */,
+				9310291024AC206400080CE7 /* KKProfileViewController.m in Sources */,
+				9310291624AC20A700080CE7 /* KKMessageViewController.m in Sources */,
 				9383728424AB4AA000D3D25E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,7 +675,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LR3Z96539F;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = KKProject_flutter/Info.plist;
+				INFOPLIST_FILE = "KKProject_flutter/Support files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -653,7 +695,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LR3Z96539F;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = KKProject_flutter/Info.plist;
+				INFOPLIST_FILE = "KKProject_flutter/Support files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
