@@ -20,14 +20,21 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
+#应用或者包依赖的其他包或者插件
 dependencies:
   flutter:
     sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+  #pub插件引用
+  #添加引用的库
   cupertino_icons: ^0.1.3
+  #网络库
+  dio: ^3.0.9
 
+
+#开发环境依赖的工具包（而不是flutter应用本身依赖的包）
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -35,6 +42,7 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
+#flutter相关的配置选项
 flutter:
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

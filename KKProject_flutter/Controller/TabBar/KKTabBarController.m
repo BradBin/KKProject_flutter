@@ -76,7 +76,7 @@ CYLTabBarControllerDelegate>
     if (selectedItem.selected) {
         @try {
             NSLog(@"************\n%@\n************\n",[[self class] cyl_topmostViewController]);
-//            [[[self class] cyl_topmostViewController] performSelector:@selector(kk_refresh)];
+            [[[self class] cyl_topmostViewController] performSelector:@selector(kk_refresh)];
         } @catch (NSException *exception) {
              NSLog(@"🔴类名与方法名：%@（在第%@行），描述：%@", @(__PRETTY_FUNCTION__), @(__LINE__), exception.reason);
         } @finally {
