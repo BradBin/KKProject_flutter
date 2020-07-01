@@ -7,6 +7,7 @@
 //
 
 #import "KKProfileViewController.h"
+#import "KKTrendsViewController.h"
 
 @interface KKProfileViewController ()
 
@@ -18,6 +19,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.navigationController pushViewController:KKTrendsViewController.new animated:true];
+}
+
 
 /*
 #pragma mark - Navigation

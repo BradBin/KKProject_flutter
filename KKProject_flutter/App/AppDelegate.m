@@ -7,13 +7,14 @@
 //
 
 #import "AppDelegate.h"
-#import "KKHomeViewController.h"
+#import "KKTabBarController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+@synthesize window = _window;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -23,7 +24,7 @@
         
     } else {
         self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
-        KKHomeViewController *vc = KKHomeViewController.new;
+        KKTabBarController *vc = KKTabBarController.new;
         self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
         self.window.backgroundColor  = UIColor.whiteColor;
         [self.window makeKeyAndVisible];

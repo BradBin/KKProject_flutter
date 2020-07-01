@@ -7,14 +7,14 @@
 //
 
 #import "SceneDelegate.h"
-#import "KKHomeViewController.h"
+#import "KKTabBarController.h"
 
 @interface SceneDelegate ()
 
 @end
 
 @implementation SceneDelegate
-
+@synthesize window = _window;
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions API_AVAILABLE(ios(13.0)){
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -25,7 +25,7 @@
     UIWindowScene *windowScene = [[UIWindowScene alloc] initWithSession:session connectionOptions:connectionOptions];
     self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
     self.window.frame = windowScene.coordinateSpace.bounds;
-    KKHomeViewController *vc = KKHomeViewController.new;
+    KKTabBarController *vc = KKTabBarController.new;
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.backgroundColor = UIColor.whiteColor;
     [self.window makeKeyAndVisible];

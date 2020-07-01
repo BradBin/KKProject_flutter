@@ -13,6 +13,7 @@
 		9310291024AC206400080CE7 /* KKProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9310290F24AC206400080CE7 /* KKProfileViewController.m */; };
 		9310291324AC207C00080CE7 /* KKTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9310291224AC207C00080CE7 /* KKTrendsViewController.m */; };
 		9310291624AC20A700080CE7 /* KKMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9310291524AC20A700080CE7 /* KKMessageViewController.m */; };
+		9310291924AC27DB00080CE7 /* KKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9310291824AC27DB00080CE7 /* KKTabBarController.m */; };
 		9383728124AB4AA000D3D25E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9383728024AB4AA000D3D25E /* AppDelegate.m */; };
 		9383728424AB4AA000D3D25E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9383728324AB4AA000D3D25E /* SceneDelegate.m */; };
 		9383728724AB4AA000D3D25E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9383728624AB4AA000D3D25E /* ViewController.m */; };
@@ -54,6 +55,8 @@
 		9310291224AC207C00080CE7 /* KKTrendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKTrendsViewController.m; sourceTree = "<group>"; };
 		9310291424AC20A700080CE7 /* KKMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKMessageViewController.h; sourceTree = "<group>"; };
 		9310291524AC20A700080CE7 /* KKMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKMessageViewController.m; sourceTree = "<group>"; };
+		9310291724AC27DB00080CE7 /* KKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKTabBarController.h; sourceTree = "<group>"; };
+		9310291824AC27DB00080CE7 /* KKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKTabBarController.m; sourceTree = "<group>"; };
 		9383727C24AB4AA000D3D25E /* KKProject_flutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKProject_flutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9383727F24AB4AA000D3D25E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9383728024AB4AA000D3D25E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -149,16 +152,58 @@
 		9310290D24AC201200080CE7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9310291B24AC27FE00080CE7 /* Home */,
+				9310291C24AC280900080CE7 /* Profile */,
+				9310291D24AC281400080CE7 /* Trends */,
+				9310291E24AC284B00080CE7 /* Message */,
+				9310291A24AC27F200080CE7 /* TabBar */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9310291A24AC27F200080CE7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9310291724AC27DB00080CE7 /* KKTabBarController.h */,
+				9310291824AC27DB00080CE7 /* KKTabBarController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		9310291B24AC27FE00080CE7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
 				938372B824AB657200D3D25E /* KKHomeViewController.h */,
 				938372B924AB657200D3D25E /* KKHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9310291C24AC280900080CE7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
 				9310290E24AC206400080CE7 /* KKProfileViewController.h */,
 				9310290F24AC206400080CE7 /* KKProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9310291D24AC281400080CE7 /* Trends */ = {
+			isa = PBXGroup;
+			children = (
 				9310291124AC207C00080CE7 /* KKTrendsViewController.h */,
 				9310291224AC207C00080CE7 /* KKTrendsViewController.m */,
+			);
+			path = Trends;
+			sourceTree = "<group>";
+		};
+		9310291E24AC284B00080CE7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
 				9310291424AC20A700080CE7 /* KKMessageViewController.h */,
 				9310291524AC20A700080CE7 /* KKMessageViewController.m */,
 			);
-			path = Controller;
+			path = Message;
 			sourceTree = "<group>";
 		};
 		9383727324AB4AA000D3D25E = {
@@ -498,6 +543,7 @@
 				9383728724AB4AA000D3D25E /* ViewController.m in Sources */,
 				938372BA24AB657200D3D25E /* KKHomeViewController.m in Sources */,
 				9383728124AB4AA000D3D25E /* AppDelegate.m in Sources */,
+				9310291924AC27DB00080CE7 /* KKTabBarController.m in Sources */,
 				9383729224AB4AA100D3D25E /* main.m in Sources */,
 				9310291324AC207C00080CE7 /* KKTrendsViewController.m in Sources */,
 				9310291024AC206400080CE7 /* KKProfileViewController.m in Sources */,
